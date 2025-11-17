@@ -1,5 +1,139 @@
-# Welcome to GitHub Desktop!
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+/* header */
+header {
+    background: #008CBA;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+header h1 {
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1560707303-4e980ce876ad?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332g')no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background: white;
+    color: #008CBA;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #008CBA;
+    color: white;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    color: #008CBA;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    color: #008CBA;
+    margin-bottom: 30px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    overflow: visible;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    background: rgb(255, 255, 255);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card p {
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.contact h2 {
+    color: #008CBA;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background: #008CBA;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
