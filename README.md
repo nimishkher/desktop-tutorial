@@ -1,3 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore The World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Explore The World</h1>
+        <nav>
+           <a href="#home">Home</a>
+            <a href="#about.html">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Adventure Awaits</h2>
+        <p>Discover amazing places around the world with us!</p>
+        <a href="#about" class="btn">Start Exploring</a>
+    </section>
+
+    
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Popular Destinations</h2>
+        <div class="gallery-container">
+
+            <div class="card"><img src="images/maldives.jpeg/" alt="Beach">
+                <p>Maldives</p>
+            </div>
+            <div class="card"><img src="images/swissalps.jpeg" alt="Mountains">
+                <p>Swiss Alps</p>
+            </div>
+            <div class="card"><img src="images/newyork.jpg" alt="City">
+                <p>New York</p>
+            </div>
+            <div class="card"><img src="images/sahara.jpg" alt="Desert">
+                <p>Sahara</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: travelhub@gmail.om</p>
+        <p>Phone: +91 7499147107</p>
+        <p>Follow us on social media for more adventures!</p>
+    </section>
+</body>
+</html>
 # Welcome to GitHub Desktop!
 
 This is your README. READMEs are where you can communicate what your project is and how to use it.
